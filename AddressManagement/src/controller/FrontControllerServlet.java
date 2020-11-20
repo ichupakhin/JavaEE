@@ -16,10 +16,17 @@ import controller.command.Delete;
 import controller.command.Read;
 import controller.command.Update;
 
+
+
 /**
  * Servlet implementation class FrontControllerServlet
  */
 //@WebServlet("/FrontControllerServlet")
+/**
+ * @author Christoph Tornau, created in course "Java EE mit Servlets und JSPs unter Tomcat und Eclipse" on udemy.com
+ * @author Changed by Ilia Chupakhin
+ *
+ */
 public class FrontControllerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private ConcurrentHashMap<String, Command> registry;

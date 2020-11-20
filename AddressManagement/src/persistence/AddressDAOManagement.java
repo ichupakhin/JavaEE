@@ -5,7 +5,11 @@ import java.sql.SQLException;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
-
+/**
+ * @author Christoph Tornau, created in course "Java EE mit Servlets und JSPs unter Tomcat und Eclipse" on udemy.com
+ * @author Changed by Ilia Chupakhin
+ *
+ */
 public class AddressDAOManagement implements ServletContextListener {
 	/**
      * @see ServletContextListener#contextInitialized(ServletContextEvent)

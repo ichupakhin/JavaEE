@@ -11,7 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 
 import model.Address;
 import persistence.AddressDAO;
-
+/**
+ * @author Christoph Tornau, created in course "Java EE mit Servlets und JSPs unter Tomcat und Eclipse" on udemy.com
+ * @author Changed by Ilia Chupakhin
+ *
+ */
 public class Read implements Command {
 
 	@Override
