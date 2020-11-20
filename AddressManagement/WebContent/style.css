@@ -1,0 +1,38 @@
+body {
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+header, footer {
+	background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	color: white;
+	font-weight: bold;
+	padding: 10px 50px 10px; 
+}
+
+article {
+	background: linear-gradient(to bottom, #fefcea 0%,#f1da36 100%);
+	padding: 10px 50px 10px;
+}
+
+table {
+	 border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+th {
+	background-color: LawnGreen;
+}
+
+td {
+	background-color: white;
+}
+
+.danger {
+	color: red;
+}
+
